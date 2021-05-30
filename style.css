@@ -771,8 +771,8 @@ a.h-text-dark:hover {
 .section {
 	position: relative;
 	width: 100%;
-	margin: 60px 0;
-	padding: 60px 0;
+	margin: 10px 0;
+	padding: 10px 0;
 	background-color: #f9f9f9;
 	overflow: hidden
 }
@@ -1698,8 +1698,21 @@ input[type=checkbox]:not(:checked)+label.error {
 }
 
 .heading-block h2 {
-	font-size: 30px
+	font-size: 50px;
+	background: linear-gradient( 
+90deg
+, rgb(218, 22, 22) 0%, rgb(240, 153, 54) 35%, rgb(145, 99, 13) 100% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    animation: flow 10s ease-in-out infinite;
+    background-size: 300%;
 }
+}
+
 
 .heading-block h3 {
 	font-size: 1.75rem
