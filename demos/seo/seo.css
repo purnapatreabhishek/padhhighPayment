@@ -172,9 +172,10 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 
 .pricing-price span.price-tenure {
 	display: block;
-	font-weight: normal;
-	color: #AAA;
+	font-weight: 700;
+	color: rgb(255,177,0);
 	text-transform: lowercase;
+	
 }
 
 /* Pricing Boxes - Features
