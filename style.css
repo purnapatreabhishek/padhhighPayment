@@ -40,7 +40,7 @@ ul {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: Lato, sans-serif
+	
 }
 
 a {
@@ -70,7 +70,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: Poppins, sans-serif
+	font-family: 'Roboto', sans-serif;
 }
 
 h5,
@@ -245,7 +245,7 @@ ul {
 }
 
 .font-body {
-	font-family: Lato, sans-serif
+	font-family: 'Roboto', sans-serif;
 }
 
 @-webkit-keyframes BgAnimated {
@@ -1521,14 +1521,16 @@ body:not(.device-touch) .social-icon i {
 	overflow: hidden;
 	border: 1px solid rgba(0, 0, 0, .075);
 	border-radius: 3px;
-	background-color: #fff
+	background-color: #fff;
+	
 }
 
 .pricing-title {
 	padding: 1rem 0;
 	background-color: #f9f9f9;
 	border-bottom: 1px solid rgba(0, 0, 0, .075);
-	letter-spacing: 1px
+	letter-spacing: 1px;
+	text-align: center;
 }
 
 .pricing-title h3 {
@@ -1558,7 +1560,8 @@ body:not(.device-touch) .social-icon i {
 	padding: 1.5rem 0;
 	color: #333;
 	font-size: 4rem;
-	line-height: 1
+	line-height: 1;
+	text-align: center;
 }
 
 .pricing-price .price-unit {
@@ -1575,7 +1578,7 @@ body:not(.device-touch) .social-icon i {
 	font-weight: 400;
 	letter-spacing: 1px;
 	color: #999;
-	margin: 0 0 0 3px
+	margin: 0 0 0 3px;
 }
 
 .pricing-features {
