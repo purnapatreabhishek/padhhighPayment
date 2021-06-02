@@ -133,9 +133,12 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 	border-color: rgba(17, 18, 18, .1);
 	text-align: left;
 	padding: 20px;
-	background-color: #FFF;
+
 	box-shadow: none;
 	margin-right: -1px;
+	background-color: #fff;
+	border: 2px solid #449186;
+	border-radius: 8px;
 }
 
 
@@ -151,7 +154,7 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 	margin: 0;
 	font-size: 21px;
 	letter-spacing: 0;
-	color: #555;
+	color: #000;
 	text-transform: none;
 }
 
