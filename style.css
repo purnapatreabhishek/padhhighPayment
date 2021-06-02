@@ -3,7 +3,9 @@
 		scroll-behavior: auto
 	}
 }
-
+*{
+	font-family: 'Mukta', sans-serif;
+}
 .form-group {
 	margin-bottom: 1rem
 }
@@ -70,7 +72,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Mukta', sans-serif;
 }
 
 h5,
@@ -245,7 +247,7 @@ ul {
 }
 
 .font-body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Mukta', sans-serif;
 }
 
 @-webkit-keyframes BgAnimated {
@@ -1148,10 +1150,10 @@ body:not(.device-touch) .button {
 .fbox-content h3 {
 	font-size: 1rem;
 	font-weight: 600;
-	font-family: Poppins, sans-serif;
+	font-family: 'Mukta', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	color: #333
+	color: #333;
 }
 
 .fbox-content p {
@@ -1522,7 +1524,8 @@ body:not(.device-touch) .social-icon i {
 	border: 1px solid rgba(0, 0, 0, .075);
 	border-radius: 3px;
 	background-color: #fff;
-	
+	width: 450px;
+	margin: 0 auto;
 }
 
 .pricing-title {
@@ -1537,7 +1540,7 @@ body:not(.device-touch) .social-icon i {
 	margin: 0;
 	font-size: 1.5rem;
 	font-weight: 700;
-	color: #555
+	color: #fff;
 }
 
 .pricing-title span {
@@ -1623,7 +1626,7 @@ label {
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 700;
-	font-family: Poppins, sans-serif;
+	font-family: 'Mukta', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #555;
@@ -2771,3 +2774,142 @@ button:hover{
 	background-color: #000;
 	
 }
+/***************************************************************************************/
+.box{
+	display: flex;
+	align-items: center;
+}
+
+.box1{
+
+width: 197px;
+height: 75px;
+left: 377px;
+top: 273px;
+
+background: #FFB100;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+text-align: center;
+
+}
+.box1:hover {
+	background-color: #EA732D;
+	
+}
+#price1{
+	padding-top: 17px;
+}
+#price2{
+	padding-top: 7px;
+}
+.box1 span{
+
+	font-family: Josefin Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	
+	height: 20px;
+	margin-top: 24px;
+	color: #FFFFFF;
+
+
+	
+}
+.box1 del{
+
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	/* identical to box height */
+	
+	letter-spacing: 0.02em;
+	text-decoration-line: line-through;
+	
+	color: #282828;
+}
+
+.box2{
+	width: 234px;
+height: 75px;
+left: 553px;
+top: 273px;
+
+background: rgba(253, 226, 130, 0.29);
+border-radius: 6px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.box3{
+	color: #000000;
+	font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.02em;
+
+}
+.box4{
+
+
+color: #211F1F;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+
+}
+.box5
+{
+	
+	width: 0px;
+	height: 33.5px;
+
+	
+	border: 1px solid rgba(234, 183, 77, 0.48);
+}
+.subject{
+	text-align: center;
+	background: rgb(255,177,0);
+	font-family: Poppins;
+	font-weight: 600;
+	color: #000;
+	padding: 5px;
+}
+.deal{
+	font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+transform: rotate(0.27deg);
+background: #449186;
+
+top: 5px;
+
+border-radius: 6px 6px 0px 0px;
+}
+/*******************************************************************************************************/
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }
