@@ -2913,4 +2913,7 @@ border-radius: 6px 6px 0px 0px;
 	body {
 	  background-color: lightblue;
 	}
+	.pricing-box{
+		width: 100%;
+	}
   }
