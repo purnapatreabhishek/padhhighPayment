@@ -1148,6 +1148,7 @@ body:not(.device-touch) .button {
 }
 
 .fbox-content h3 {
+	margin-top: 20px;
 	font-size: 1rem;
 	font-weight: 600;
 	font-family: 'Mukta', sans-serif;
